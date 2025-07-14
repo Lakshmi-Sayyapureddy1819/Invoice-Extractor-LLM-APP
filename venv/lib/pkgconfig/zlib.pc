@@ -1,0 +1,13 @@
+prefix=/workspaces/Invoice-Extractor-LLM-APP/venv
+exec_prefix=/workspaces/Invoice-Extractor-LLM-APP/venv
+libdir=/workspaces/Invoice-Extractor-LLM-APP/venv/lib
+sharedlibdir=/workspaces/Invoice-Extractor-LLM-APP/venv/lib
+includedir=/workspaces/Invoice-Extractor-LLM-APP/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
